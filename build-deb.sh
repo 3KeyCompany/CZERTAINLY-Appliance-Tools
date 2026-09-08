@@ -76,8 +76,6 @@ echo -n "Creating $install: "
     grep -vE '~$|/\.|/__pycache__/' > $install
 echo "done."
 
-cp -f LICENSE debian/copyright
-
 dpkg-buildpackage -b -us -uc
 
 # https://pmhahn.github.io/debian-oot-build/
