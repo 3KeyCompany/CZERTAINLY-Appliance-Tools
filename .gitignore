@@ -12,7 +12,6 @@ vendor/requirements.yml
 debian/.debhelper/
 debian/debhelper-build-stamp
 debian/files
-debian/copyright
 debian/czertainly-appliance-tools/
 debian/ilm-appliance-tools/
 debian/*.substvars
